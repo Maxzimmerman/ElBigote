@@ -1,0 +1,35 @@
+body {
+    background-color: black!important;
+}
+
+.nav-section {
+    position: fixed!important;
+    top: 0px!important;
+    width: 100%!important;
+    margin-top: 0px!important;
+}
+
+nav {
+    padding: 0px!important;
+}
+
+.logo-nav {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #ad2944;
+}
+
+.navbar-list {
+    align-items: center!important;
+}
+
+root {
+    --color-one: #9e0d0d;
+    --color-two: #003f6d;
+    --color-three: #b5830d;
+    --color-four: #ad2944;
+}

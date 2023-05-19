@@ -1,6 +1,15 @@
+root {
+    --color-one: #9e0d0d;
+    --color-two: #003f6d;
+    --color-three: #b5830d;
+    --color-four: #ad2944;
+}
+
 body {
     background-color: black!important;
 }
+
+/* Navbar */
 
 .nav-section {
     position: fixed!important;
@@ -11,11 +20,12 @@ body {
 
 nav {
     padding: 0px!important;
+    box-shadow: 0 0px 9px rgb(0 0 0 / 0.7)!important;
 }
 
 .logo-nav {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
 .navbar {
@@ -24,12 +34,46 @@ nav {
 }
 
 .navbar-list {
-    align-items: center!important;
+    align-items: center !important;
+    margin: auto!important;
 }
 
-root {
-    --color-one: #9e0d0d;
-    --color-two: #003f6d;
-    --color-three: #b5830d;
-    --color-four: #ad2944;
+.navbar-entry {
+    margin: auto;
+}
+
+/* Image */
+
+.image-section {
+    padding: 0px!important;
+}
+
+.image-wrapper {
+    padding: 0px!important;
+}
+
+.body-img {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Social Media */
+
+.social-media-section {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%!important;
+}
+
+.icon-wrapper {
+    background: #b5830d;
+    height: 100px;
+    width: 100px!important;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }

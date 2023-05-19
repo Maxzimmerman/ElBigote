@@ -12,28 +12,56 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
         crossorigin="anonymous">
         </script>
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+              integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+              crossorigin="anonymous"
+              referrerpolicy="no-referrer" />
         <title>El Bigote</title>
     </head>
     <body>
         <div class="nav-section">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid navbar">
-                  <a class="navbar-brand col-2" href="">Navbar</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse col-10" id="navbarNav">
-                    <ul class="navbar-nav navbar-list col-12">
-                        <li class="nav-item col-9 text-center">
-                            <a class="nav-link active" aria-current="page" href=""><img class="logo-nav" src="assets/images/El-Bigote.jpg"/></a>
+                    <ul class="navbar-nav navbar-list col-10">
+                        <li class="nav-item col-2 navbar-entry">
+                            <a class="nav-link active text-center" aria-current="page" href="#">Menu</a>
                         </li>
-                        <li class="nav-item col-3">
-                            <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                        <li class="nav-item col-2 navbar-entry">
+                            <a class="nav-link active text-center" aria-current="page" href="#social-media">Social Medias</a>
+                        </li>
+                        <li class="nav-item col-2 text-center navbar-entry">
+                            <a class="nav-link active text-center" aria-current="page" href=""><img class="logo-nav text-center" src="assets/images/El-Bigote.jpg"/></a>
+                        </li>
+                        <li class="nav-item col-2 navbar-entry">
+                            <a class="nav-link active text-center" aria-current="page" href="#">Kontakt</a>
+                        </li>
+                        <li class="nav-item col-2 navbar-entry">
+                            <a class="nav-link active text-center" aria-current="page" href="#">Öffnungszeiten</a>
                         </li>
                     </ul>
                   </div>
                 </div>
               </nav>
+        </div>
+    
+        <div class="image-section">
+            <div class="image-wrapper">
+                <img class="body-img" src="assets/images/2023-03-31.jpg">
+            </div>
+        </div>
+
+        <div class="social-media-section container" id="social-media">
+            <div class="col-6 insta-icon-wrapper icon-wrapper">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="col-6 facebook-icon-wrapper icon-wrapper">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
         </div>
     </body>
 </html>

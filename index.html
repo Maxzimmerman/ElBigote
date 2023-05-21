@@ -41,7 +41,7 @@
                             <a class="nav-link active text-center" aria-current="page" href="#kontakt-section">Kontakt</a>
                         </li>
                         <li class="nav-item col-2 navbar-entry">
-                            <a class="nav-link active text-center" aria-current="page" href="#öffnungszeiten-section">Öffnungszeiten</a>
+                            <a class="nav-link active text-center" aria-current="page" href="#öffnungszeiten-section">Besuchen Sie uns</a>
                         </li>
                     </ul>
                   </div>
@@ -56,36 +56,95 @@
                     <h1 class="text-center">El Bigote</h1>
                     <h3 class="text-center">Leckeres Traditionel Mexikanisches Essen</h3>
                 </div>
-                <img class="body-img" src="assets/images/2023-03-31.jpg">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/images/2023-03-31.jpg" class="d-block w-100 body-img" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/2023-03-31.jpg" class="d-block w-100 body-img" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Unsere Lounge mit Blick</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/2023-03-31.jpg" class="d-block w-100 body-img" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
             </div>
         </div>
 
         <div class="social-media-section container" id="social-media">
             <div class="social-media-header-wrapper row">
-                <h1 class="col-12 text-center">Folgen Sie Uns</h1>
+                <h1 class="text-center">Folgen Sie Uns</h1>
             </div>
-            <div class="social-media-icons row">
-                <a href="https://www.instagram.com/elbigotemexicansteakhouse/" class="col-6 insta-icon-wrapper icon-wrapper">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="menu.html" class="col-6 facebook-icon-wrapper icon-wrapper">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/elbigotemexicansteakhouse/" class="col-6 insta-icon-wrapper icon-wrapper">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="menu.html" class="col-6 facebook-icon-wrapper icon-wrapper">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </div>
+            <ul class="social-media-icons col-12">
+                <li>
+                    <a href="https://www.instagram.com/elbigotemexicansteakhouse/" class="col-6 insta-icon-wrapper icon-wrapper">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="menu.html" class="col-6 facebook-icon-wrapper icon-wrapper">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/elbigotemexicansteakhouse/" class="col-6 insta-icon-wrapper icon-wrapper">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
 
-        <div class="öffnungszeiten-section" id="öffnungszeiten-section">
-            <h1>Besuchen Sie uns</h1>
+
+        <div class="kontakt-section container" id="kontakt-section">
+            <h1 class="text-center">Kontaktieren Sie uns</h1>
         </div>
 
-        <div class="kontakt-section" id="kontakt-section">
-            <h1>Kontaktieren Sie uns</h1>
+        <div class="öffnungszeiten-section container" id="öffnungszeiten-section">
+            <div class="öffnungszeiten-text-wrappper">
+                <h1 class="öffnungszeiten-header">Besuchen Sie uns</h1>
+                <div class="öffnungszeiten-body">
+                    <div class="öffnungszeiten-location">
+                        <a href="https://www.google.de/maps/place/El+Bigote+Mexican+Steakhouse/@50.1423855,8.9081901,17z/data=!3m1!4b1!4m6!3m5!1s0x47bd17589e56418f:0x688b6bbc00f6e8ef!8m2!3d50.1423821!4d8.910765!16s%2Fg%2F11tn2_8w6v"><i class="fa-solid fa-location-dot"></i>Bruchköbeler Landstraße 25, 63452 Hanau</a>
+                    </div>
+                    <div class="öffnungszeiten-time">
+                        <ul>
+                            <li>Sonntag 17:00–22:00</li>
+                            <li>Montag Geschlossen</li>
+                            <li>Dienstag Geschlossen</li>
+                            <li>Mittwoch 17:00–22:00</li>
+                            <li>Donnerstag 17:00–22:00</li>
+                            <li>Freitag 17:00–23:00</li>
+                            <li>Samstag 17:00–23:00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

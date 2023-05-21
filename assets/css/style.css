@@ -16,7 +16,7 @@ body {
     top: 0px!important;
     width: 100%!important;
     margin-top: 0px!important;
-    z-index: 1;
+    z-index: 100;
 }
 
 nav {
@@ -58,6 +58,7 @@ nav {
     align-items: center!important;
     justify-content: center;
     flex-direction: column;
+    z-index: 1;
 }
 
 .image-text > h1 {
@@ -85,29 +86,28 @@ nav {
 /* Social Media */
 
 .social-media-section {
-    height: 50vh;
+    height: 90vh;
     width: 100%!important;
     color: white;
     display: flex!important;
     justify-content: center!important;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .social-media-icons {
+    width: 100%;
+    display: flex;
 }
 
-.icon-wrapper {
-    background: #b5830d;
-    height: 100px;
-    width: 100px!important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+.social-media-icons > li {
+    margin: auto;
+    list-style: none;
+}
+
+.icon-wrapper > i {
+    font-size: 3rem;
 }
 
 .icon-wrapper:hover {
@@ -116,6 +116,48 @@ nav {
 
 /* öffnungszeiten */
 
+.öffnungszeiten-section {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.öffnungszeiten-text-wrappper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.öffnungszeiten-header {
+    margin-bottom: 40px;
+}
+
+.öffnungszeiten-body {
+    display: flex;
+    align-items: center;
+}
+
+.öffnungszeiten-location > a {
+    color: white;
+}
+
+.öffnungszeiten-location > a:hover {
+    color: white;
+}
+
+.öffnungszeiten-time > ul > li {
+    list-style: none;
+}
 
 /* kontact */
+
+
+.kontakt-section {
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

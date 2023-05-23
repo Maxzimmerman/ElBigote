@@ -16,7 +16,7 @@ body {
     top: 0px!important;
     width: 100%!important;
     margin-top: 0px!important;
-    z-index: 100;
+    z-index: 1000;
 }
 
 nav {
@@ -25,8 +25,8 @@ nav {
 }
 
 .logo-nav {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .navbar {
@@ -72,8 +72,8 @@ nav {
 }
 
 .transparent-icon {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 40px;
 }
 
@@ -87,7 +87,8 @@ nav {
 .body-img {
     height: 100vh;
     width: 100%;
-    border-bottom: 2px solid #ad2944;
+    border-bottom: 2px solid black;
+    filter: brightness(40%);
 }
 
 #vignette {
@@ -113,10 +114,15 @@ nav {
 /* öffnungszeiten */
 
 .öffnungszeiten-section {
-    height: 90vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.öffnungszeiten-img-wrapper {
+    height: 100vh;
 }
 
 .öffnungszeiten-text-wrappper {
@@ -203,13 +209,22 @@ nav {
     text-decoration: none;
 }
 
+/* padding section */
+
+.section-padding {
+    position: relative;
+    width: 1000px;
+    top: -30px;
+    left: 10%;
+}
+
 
 /* impressum section */
 
 .impressum-section {
     height: 30vh;
     border-top: #ad2944 solid 2px;
-    margin-top: 200px;
+    margin-top: 400px;
 }
 
 .impressum-card {

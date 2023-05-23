@@ -31,14 +31,8 @@
                         <li class="nav-item col-2 navbar-entry">
                             <a class="nav-link active text-center" aria-current="page" href="menu.html">Menu</a>
                         </li>
-                        <li class="nav-item col-2 navbar-entry">
-                            <a class="nav-link active text-center" aria-current="page" href="#social-media">Social Medias</a>
-                        </li>
                         <li class="nav-item col-2 text-center navbar-entry">
                             <a class="nav-link active text-center" aria-current="page" href=""><img class="logo-nav text-center" src="assets/images/El-Bigote.jpg"/></a>
-                        </li>
-                        <li class="nav-item col-2 navbar-entry">
-                            <a class="nav-link active text-center" aria-current="page" href="#kontakt-section">Kontakt</a>
                         </li>
                         <li class="nav-item col-2 navbar-entry">
                             <a class="nav-link active text-center" aria-current="page" href="#öffnungszeiten-section">Besuchen Sie uns</a>
@@ -63,8 +57,10 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                   </div>
                   <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="assets/images/2023-03-31.jpg" class="d-block w-100 body-img" alt="...">
+                    <div class="carousel-item active image-wrapper-carousel">
+                      <div class="vignette" id="vignette">
+                          <img src="assets/images/2023-03-31.jpg" class="d-block w-100 body-img" alt="...">
+                      </div>
                       <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
@@ -97,35 +93,9 @@
             </div>
         </div>
 
-        <div class="social-media-section container" id="social-media">
-            <div class="social-media-header-wrapper row">
-                <h1 class="text-center">Folgen Sie Uns</h1>
-            </div>
-            <ul class="social-media-icons col-12">
-                <li>
-                    <a href="https://www.instagram.com/elbigotemexicansteakhouse/" class="col-6 insta-icon-wrapper icon-wrapper">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <h4>Instagram</h4>
-                </li>
-                <li>
-                    <a href="menu.html" class="col-6 facebook-icon-wrapper icon-wrapper">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <h4>Facebook</h4>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/elbigotemexicansteakhouse/" class="col-6 insta-icon-wrapper icon-wrapper">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <h4>Instagram</h4>
-                </li>
-            </ul>
-        </div>
-
-        <div class="öffnungszeiten-section container" id="öffnungszeiten-section">
+        <div class="öffnungszeiten-section" style="background-color: #242425" id="öffnungszeiten-section">
             <div class="öffnungszeiten-img-wrapper">
-                <img src="assets/images/for-location.jpg">
+                <img src="assets/images/for-location.jpg" style="width: 100%; height: 100vh">
             </div>
             <div class="öffnungszeiten-text-wrappper">
                 <div class="öffnungszeiten-body card">
@@ -153,9 +123,32 @@
             </div>
         </div>
 
-        <div class="kontakt-section container" id="kontakt-section">
-            <h1 class="text-center">Kontaktieren Sie uns</h1>
-        </div>
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="winta-contact-info2">
+                            <div class="feat-inner2"> <span class="icon et-phone"></span>
+                                <a href="menu.html" class="feat-info2">
+                                    <h5>Call</h5>
+                                    <h6>+061814273972</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="winta-contact-info2">
+                            <div class="feat-inner2"> <span class="icon et-notebook"></span>
+                                <a href="menu.html" class="feat-info2">
+                                    <h5>E-Mail</h5>
+                                    <h6>test@test.com</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div class="impressum-section">
             <div class="container">

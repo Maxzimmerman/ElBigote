@@ -36,7 +36,12 @@
 
 @font-face {
     font-family: 'cs-gordon-vintage';
-    src: url('onepage-dark/custom-fonts/CS Gordon Vintage.otf') format('otf');
+    src: url('onepage-dark/custom-fonts/CS Gordon Vintage.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'nord-regular';
+    src: url('onepage-dark/custom-fonts/NordRegular.ttf') format('opentype');
 }
 /* ======= Basics ======= */
 * {
@@ -54,12 +59,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    font-family: 'cs-gordon-vintage', 'sans-serif'!important;
 }
 body {
     overflow-x: hidden !important;
     background: #1b1b1b;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'cs-gordon-vintage', sans-serif;
     font-size: 15px;
     line-height: 1.75em;
     font-weight: 400;
@@ -478,6 +482,7 @@ h2 span {
 
 
 /* ======= Navbar ======= */
+
 .navbar {
     position: absolute;
     left: 0;
@@ -485,14 +490,15 @@ h2 span {
     width: 100%;
     background: transparent;
     z-index: 9;
-    padding: 20px 10px;
+    padding: 10px 10px;
+    background-color: black;
 }
 .navbar .icon-bar {
     color: #fff;
 }
 .navbar .navbar-nav .nav-link {
-    font-size: 21px;
-    font-family: 'custom-font', 'sans-serif';
+    font-size: 15px;
+    font-family: 'cs-gordon-vintage', 'sans-serif';
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -766,7 +772,7 @@ h2 span {
     animation-delay: .2s;
 }
 .header .caption h1 {
-    font-family: 'custom-font', serif!important;
+    font-family: 'cs-gordon-vintage', serif!important;
     position: relative;
     margin-bottom: 15px;
     font-weight: 400;
@@ -1536,13 +1542,13 @@ button.mfp-arrow {
     margin-bottom: 5px;
     font-family: 'Noto Serif', serif;
 }
-.video-opening-hours-section .opening-hours-box .head-box h1 {
-    font-family: 'Noto Serif', serif;
+.video-opening-hours-section .opening-hours-box .head-box h4 {
+    font-family: 'cs-gordon-vintage', serif;
     color: #991b1f;
     margin-bottom: 40px;
     letter-spacing: 1px;
     word-spacing: 5px;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 30px;
     padding-bottom: 15px;
     border-bottom: 1px dashed #670c0e;
@@ -1556,16 +1562,16 @@ button.mfp-arrow {
 }
 .video-opening-hours-section .opening-hours-box .item .info .cont .day {
     color: rgba(255,255,255,0.8);
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 15px;
-    font-family: 'Noto Serif', serif;
+    font-family: 'nord-regular', serif;
 }
 .video-opening-hours-section .opening-hours-box .item .info .cont .time {
         color: #991b1f;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: 'Noto Serif', serif;
+    font-family: 'cs-gordon-vintage', serif;
 }
 
 @media screen and (max-width: 991px) {
@@ -1985,25 +1991,25 @@ button.mfp-arrow {
     overflow: hidden;
 }
 .winta-contact-info2 h5 {
-    font-size: 21px;
+    font-size: 13px;
     margin-bottom: 0px;
     margin-top: 0px;
-    font-family: 'Noto Serif', serif;
+    font-family: 'cs-gordon-vintage', serif;
     color: #fff;
 }
 .winta-contact-info2 h6 {
     color: rgba(255,255,255,0.8);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 0px;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'nord-regular', sans-serif;
 }
 
 
 /* ======= Buttons ======= */
 .butn {
-    font-family: 'Noto Serif', serif;
-    font-size: 25px;
+    font-family: 'cs-gordon-vintage', serif;
+    font-size: 15px;
     font-weight: 400;
     padding: 12px 24px;
     background: transparent;
@@ -2187,9 +2193,9 @@ button.mfp-arrow {
 }
 .main-footer .fothead h6 {
     color: #991b1f;
-    font-size: 20px;
+    font-size: 11px;
     margin-bottom: 20px;
-    font-family: 'Noto Serif', serif;
+    font-family: 'cs-gordon-vintage', serif;
     letter-spacing: 1px;
 }
 .main-footer .fotcont .fothead h6 {
@@ -2207,8 +2213,8 @@ button.mfp-arrow {
     border-bottom: 1px dashed rgba(255,255,255,0.1);
 }
 .main-footer .fotcont p {
-    font-size: 15px;
-    font-family: 'Mukta', sans-serif;
+    font-size: 19px;
+    font-family: 'nord-regular', sans-serif;
     color: rgba(255,255,255,0.8);
     margin-bottom: 0px;
 }
@@ -2218,8 +2224,9 @@ button.mfp-arrow {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
 }
 .main-footer .sub-footer p {
-    font-size: 14px;
+    font-size: 17px;
     color: rgba(255,255,255,0.8);
+    font-family: 'nord-regular', 'sans-serif';
 }
 .main-footer .sub-footer p.right {
     text-align: right;

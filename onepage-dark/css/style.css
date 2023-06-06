@@ -2158,6 +2158,7 @@ button.mfp-arrow {
 }
 .main-footer .abot .social-icon {
     margin-top: 20px;
+    display: flex;
 }
 .main-footer .abot .social-icon a {
     width: 45px;
@@ -2171,6 +2172,9 @@ button.mfp-arrow {
     -webkit-transition: all .4s;
     -o-transition: all .4s;
     transition: all .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-footer .abot .social-icon a:hover {
     border-color: #fff;

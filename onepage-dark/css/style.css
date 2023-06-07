@@ -1548,11 +1548,68 @@ button.mfp-arrow {
     margin-bottom: 40px;
     letter-spacing: 1px;
     word-spacing: 5px;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 30px;
     padding-bottom: 15px;
     border-bottom: 1px dashed #670c0e;
 }
+
+@media screen and (width: 360px) {
+    .video-opening-hours-section .opening-hours-box .head-box h4 {
+        font-family: 'cs-gordon-vintage', serif;
+        color: #991b1f;
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        font-size: 18px;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #670c0e;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .video-opening-hours-section .opening-hours-box .head-box h4 {
+        font-family: 'cs-gordon-vintage', serif;
+        color: #991b1f;
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        font-size: 25px;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #670c0e;
+    }
+}
+
+@media screen and (width: 820px) {
+    .video-opening-hours-section .opening-hours-box .head-box h4 {
+        font-family: 'cs-gordon-vintage', serif;
+        color: #991b1f;
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        font-size: 25px;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #670c0e;
+    }
+}
+
+@media screen and (width: 912px) {
+    .video-opening-hours-section .opening-hours-box .head-box h4 {
+        font-family: 'cs-gordon-vintage', serif;
+        color: #991b1f;
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        font-size: 25px;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #670c0e;
+    }
+}
+
 .video-opening-hours-section .opening-hours-box .head-box h4 span {
     color: #fff;
 }
@@ -1989,6 +2046,8 @@ button.mfp-arrow {
 }
 .winta-contact-info2 .feat-info2 {
     overflow: hidden;
+    margin-left: 0px;
+
 }
 .winta-contact-info2 h5 {
     font-size: 13px;
@@ -2255,6 +2314,16 @@ button.mfp-arrow {
     background: #991b1f;
     padding: 3px;
     text-align: center;
+}
+
+.offset-md-1 {
+    margin: 30px 0!important;
+}
+
+@media screen and (width: 768px) {
+    .offset-md-1 {
+        margin: 10px 0px!important;
+    }
 }
 
 /* ======= Cursor Style ======= */

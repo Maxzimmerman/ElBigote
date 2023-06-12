@@ -282,7 +282,7 @@ $(document).ready(function() {
 });
 
 // Mouse effect 
-function mousecursor() {
+/*function mousecursor() {
     if ($("body")) {
         const e = document.querySelector(".cursor-inner"),
             t = document.querySelector(".cursor-outer");
@@ -299,7 +299,7 @@ function mousecursor() {
 };
 $(function () {
     mousecursor();
-});
+});*/
 
 // Preloader page
 paceOptions = {

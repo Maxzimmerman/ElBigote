@@ -1,6 +1,6 @@
 /* -----------------------------------------------------------------------------------
 
- 01. Google Fonts
+ 01. Fonts
  02. Basics style
  03. Preloader style
  04. Selection style
@@ -31,8 +31,7 @@
 ----------------------------------------------------------------------------------- */
 
 
-/* ======= Google fonts ======= */
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&family=Pirata+One&display=swap');
+/* ======= Fonts ======= */
 
 @font-face {
     font-family: 'cs-gordon-vintage';
@@ -3012,7 +3011,7 @@ button.mfp-arrow {
 }
 
 /* ======= Cursor Style ======= */
-body {
+/*body {
 
 }
 .mouse-cursor {
@@ -3065,7 +3064,7 @@ body {
   transition: all .08s ease-out; }
 .cursor-outer.cursor-hover {
     opacity: 0; 
-}
+}*/
 
 
 /* ======= Responsive ======= */

@@ -831,7 +831,7 @@ span.navbar-oe::after {
         align-items: center;
         position: relative;
         left: -100px;
-        top: 230px;
+        top: 200px;
     }
 }
 @media screen and (min-width: 1700px) {
@@ -842,7 +842,7 @@ span.navbar-oe::after {
         align-items: center;
         position: relative;
         left: -300px;
-        top: 230px;
+        top: 200px;
     }
 }
 @media screen and (min-width: 2000px) {

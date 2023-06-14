@@ -853,7 +853,7 @@ span.navbar-oe::after {
         align-items: center;
         position: relative;
         left: -600px;
-        top: 230px;
+        top: 200px;
     }
 }
 .header .caption h2 {

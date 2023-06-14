@@ -552,144 +552,28 @@ h2 span {
     border: none;
     border-bottom: 1px solid #1b1b1b;
 }
-.nav-öffnungszeiten:before {
+.nav-öffnungszeiten {
+    white-space: nowrap;
+}
+span.navbar-oe  {
+    position: relative;
+}
+span.navbar-oe::before,
+span.navbar-oe::after {
     content: '.';
     position: absolute;
-    top: 201px;
-    left: 30px;
+    display: inline-block;
+    line-height: 0;
 }
-.nav-öffnungszeiten:after {
-    content: '.';
-    position: absolute;
-    top: 201px;
-    left: 38px;
+span.navbar-oe::before {
+    right: 1px;
+    top: -2px;
 }
-@media screen and (width: 1024px) {
-    .nav-öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 762px;
-    }
-    .nav-öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 770px;
-    }
+span.navbar-oe::after {
+    left: 1px;
+    top: -2px;
 }
-@media screen and (width: 1280px) {
-    .nav-öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 980px;
-    }
-    .nav-öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 987px;
-    }
-}
-@media screen and (width: 1480px) {
-    .nav-öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1072px;
-    }
-    .nav-öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1080px;
-    }
-}
-@media screen and (width: 1680px) {
-    .nav-öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1172px;
-    }
-    .nav-öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1180px;
-    }
-}
-@media screen and (width: 1880px) {
-    .nav-öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1272px;
-    }
-    .nav-öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1280px;
-    }
-}
-@media screen and (width: 2080px) {
-    .nav-öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1372px;
-    }
-    .nav-öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1380px;
-    }
-}
-@media screen and (width: 2280px) {
-    .nav-öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1472px;
-    }
-    .nav-öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1480px;
-    }
-}
-@media screen and (min-width: 2480px) {
-    .nav-öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1612px;
-    }
-    .nav-öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1620px;
-    }
-}
-@media screen and (min-width: 2680px) {
-    .nav-öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1572px;
-    }
-    .nav-öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        top: 28px;
-        left: 1580px;
-    }
-}
+
 .nav-scroll .icon-bar {
     color: #991b1f;
 }
@@ -1769,276 +1653,32 @@ h2 span {
     padding-bottom: 15px;
     border-bottom: 1px dashed #670c0e;
 }
+.video-opening-hours-section .opening-hours-box .head-box h4 {
+    white-space: nowrap;
+}
 
-.video-opening-hours-section .opening-hours-box .head-box h4:before {
+.video-opening-hours-section .opening-hours-box .head-box h4 .opening-hours-oe {
+    position: relative;
+    color: #991b1f;
+}
+
+.video-opening-hours-section .opening-hours-box .head-box h4 .opening-hours-oe:before,
+.video-opening-hours-section .opening-hours-box .head-box h4 .opening-hours-oe:after {
     content: '.';
     position: absolute;
-    top: 44px;
-    border-radius: 50%;
+    display: inline-block;
+    line-height: 0;
 }
 
-.video-opening-hours-section .opening-hours-box .head-box h4:after {
-    content: '.';
-    position: absolute;
-    top: 44px;
-    left: 57px;
-    border-radius: 50%;
+.video-opening-hours-section .opening-hours-box .head-box h4 .opening-hours-oe:before {
+    right: 1px;
+    top: -6px;
 }
 
-@media screen and (width: 360px) {
-        .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 46px;
-        border-radius: 50%;
-    }
-
-.video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 46px;
-        left: 55px;
-        border-radius: 50%;
-    }
+.video-opening-hours-section .opening-hours-box .head-box h4 .opening-hours-oe:after {
+    left: 1px;
+    top: -6px;
 }
-
-@media screen and (width: 375px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 44px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 44px;
-        left: 51px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 393px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 44px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 44px;
-        left: 60px;
-        border-radius: 50%;
-    }
-}
-@media screen and (min-width: 412px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 44px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 44px;
-        left: 68.5px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (min-width: 540px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 44px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 44px;
-        left: 132px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 768px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 40px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 40px;
-        left: 195px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 820px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 38px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 38px;
-        left:195px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 912px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 40px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 40px;
-        left: 195px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 1024px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 40px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 40px;
-        left: 234px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 1280px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        left: 214px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 1480px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        left: 214px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 1680px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        left: 214px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 1880px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        left: 214px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (width: 2080px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        left: 214px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (min-width: 2280px) {
-    .video-opening-hours-section .opening-hours-box .head-box h4:before {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        border-radius: 50%;
-    }
-
-    .video-opening-hours-section .opening-hours-box .head-box h4:after {
-        content: '.';
-        position: absolute;
-        top: 39px;
-        left: 214px;
-        border-radius: 50%;
-    }
-}
-
 
 @media screen and (width: 360px) {
     .video-opening-hours-section .opening-hours-box .head-box h4 {
@@ -2770,172 +2410,29 @@ h2 span {
     position: relative;
     padding-bottom: 5px;
 }
-.main-footer .fotcont .fothead .öffnungszeiten:before {
+.main-footer .fotcont .fothead  {
+    white-space: nowrap;
+}
+.main-footer .fotcont .fothead .öffnungszeiten .footer-oe {
+    position: relative;
+}
+.footer-oe:before,
+.footer-oe:after {
     content: '.';
     position: absolute;
-    right: 235px;
-    bottom: 17px;
+    display: inline-block;
+    line-height: 0;
 }
-.main-footer .fotcont .fothead .öffnungszeiten:after {
-    content: '.';
-    position: absolute;
-    right: 229px;
-    bottom: 17px;
+.footer-oe:before {
+    right: 1px;
+    top: -3px;
 }
-@media screen and (width: 375px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 243px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 237px;
-        bottom: 17px;
-    }
+
+.footer-oe:after {
+    left: 1px;
+    top: -3px;
 }
-@media screen and (width: 390px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 250px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 245px;
-        bottom: 17px;
-    }
-}
-@media screen and (width: 393px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 251px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 245px;
-        bottom: 17px;
-    }
-}
-@media screen and (width: 412px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 261px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 255px;
-        bottom: 17px;
-    }
-}
-@media screen and (width: 414px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 262px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 256px;
-        bottom: 17px;
-    }
-}
-@media screen and (width: 540px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 325px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 320px;
-        bottom: 17px;
-    }
-}
-@media screen and (width: 768px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 324px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 318px;
-        bottom: 17px;
-    }
-}
-@media screen and (width: 820px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 324px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 318px;
-        bottom: 17px;
-    }
-}
-@media screen and (width: 912px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 324px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 318px;
-        bottom: 17px;
-    }
-}
-@media screen and (width: 1024px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 445px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 439px;
-        bottom: 17px;
-    }
-}
-@media screen and (min-width: 1280px) {
-        .main-footer .fotcont .fothead .öffnungszeiten:before {
-        content: '.';
-        position: absolute;
-        right: 250px;
-        bottom: 17px;
-    }
-    .main-footer .fotcont .fothead .öffnungszeiten:after {
-        content: '.';
-        position: absolute;
-        right: 244px;
-        bottom: 17px;
-    }
-}
+
 .main-footer .fotcont p {
     font-size: 19px;
     font-family: 'nord-regular', sans-serif;
